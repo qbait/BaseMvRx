@@ -1,4 +1,4 @@
-package com.airbnb.mvrx.sample.core
+package co.digitalheart.basemvrx.core
 
 import com.airbnb.epoxy.AsyncEpoxyController
 import com.airbnb.epoxy.EpoxyController

@@ -1,8 +1,8 @@
 package co.digitalheart.basemvrx.features.helloworld
 
 import com.airbnb.mvrx.fragmentViewModel
-import com.airbnb.mvrx.sample.core.BaseFragment
-import com.airbnb.mvrx.sample.core.simpleController
+import co.digitalheart.basemvrx.core.BaseFragment
+import co.digitalheart.basemvrx.core.simpleController
 import com.airbnb.mvrx.sample.views.marquee
 
 class HelloWorldEpoxyFragment : BaseFragment() {

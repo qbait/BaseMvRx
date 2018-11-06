@@ -1,4 +1,4 @@
-package com.airbnb.mvrx.sample.core
+package co.digitalheart.basemvrx.core
 
 import android.os.Bundle
 import android.os.Parcelable

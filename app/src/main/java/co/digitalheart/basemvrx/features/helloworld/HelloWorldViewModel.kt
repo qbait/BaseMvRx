@@ -1,7 +1,7 @@
 package co.digitalheart.basemvrx.features.helloworld
 
+import co.digitalheart.basemvrx.core.MvRxViewModel
 import com.airbnb.mvrx.MvRxState
-import com.airbnb.mvrx.sample.core.MvRxViewModel
 
 data class HelloWorldState(val title: String = "Hello World") : MvRxState
 

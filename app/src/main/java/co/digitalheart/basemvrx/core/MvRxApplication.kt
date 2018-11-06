@@ -1,24 +1,14 @@
-package com.airbnb.mvrx.sample.core
+package co.digitalheart.basemvrx.core
 
 import android.app.Application
+import co.digitalheart.basemvrx.di.networkModule
+import org.koin.android.ext.android.startKoin
 
 
 class MvRxApplication : Application() {
 
-//    private val dadJokeServiceModule : Module = applicationContext {
-//        bean {
-//            val moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
-//            val retrofit = Retrofit.Builder()
-//                    .baseUrl("https://icanhazdadjoke.com/")
-//                    .addConverterFactory(MoshiConverterFactory.create(moshi))
-//                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-//                    .build()
-//            retrofit.create(DadJokeService::class.java)
-//        }
-//    }
-//
-//    override fun onCreate() {
-//        super.onCreate()
-//        startKoin(this, listOf(dadJokeServiceModule))
-//    }
+    override fun onCreate() {
+        super.onCreate()
+        startKoin(this, listOf(networkModule))
+    }
 }

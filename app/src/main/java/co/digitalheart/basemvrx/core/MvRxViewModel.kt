@@ -1,4 +1,4 @@
-package com.airbnb.mvrx.sample.core
+package co.digitalheart.basemvrx.core
 
 import com.airbnb.mvrx.BaseMvRxViewModel
 import com.airbnb.mvrx.BuildConfig
