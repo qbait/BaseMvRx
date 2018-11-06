@@ -4,6 +4,6 @@
             android:id="@+id/nav_graph" app:startDestination="@id/helloWorldEpoxyFragment">
 
     <fragment android:id="@+id/helloWorldEpoxyFragment"
-              android:name="co.digitalheart.basemvrx.features.helloworld.HelloWorldEpoxyFragment"
+              android:name="co.digitalheart.basemvrx.features.jokes.DadJokeIndexFragment"
               android:label="HelloWorldEpoxyFragment"/>
 </navigation>

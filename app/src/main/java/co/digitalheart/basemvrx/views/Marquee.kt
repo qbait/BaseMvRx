@@ -1,4 +1,4 @@
-package com.airbnb.mvrx.sample.views
+package co.digitalheart.basemvrx.views
 
 import android.content.Context
 import android.util.AttributeSet
