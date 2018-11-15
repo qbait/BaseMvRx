@@ -1,7 +1,7 @@
 package co.digitalheart.basemvrx.network
 
-import com.airbnb.mvrx.sample.models.Joke
-import com.airbnb.mvrx.sample.models.JokesResponse
+import co.digitalheart.basemvrx.models.Joke
+import co.digitalheart.basemvrx.models.JokesResponse
 import io.reactivex.Observable
 import retrofit2.http.GET
 import retrofit2.http.Headers

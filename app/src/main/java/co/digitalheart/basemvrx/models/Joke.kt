@@ -1,4 +1,4 @@
-package com.airbnb.mvrx.sample.models
+package co.digitalheart.basemvrx.models
 
 import com.squareup.moshi.Json
 

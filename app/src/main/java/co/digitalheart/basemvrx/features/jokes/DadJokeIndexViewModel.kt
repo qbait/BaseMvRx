@@ -9,8 +9,8 @@ import com.airbnb.mvrx.Loading
 import com.airbnb.mvrx.MvRxState
 import com.airbnb.mvrx.MvRxViewModelFactory
 import com.airbnb.mvrx.Uninitialized
-import com.airbnb.mvrx.sample.models.Joke
-import com.airbnb.mvrx.sample.models.JokesResponse
+import co.digitalheart.basemvrx.models.Joke
+import co.digitalheart.basemvrx.models.JokesResponse
 import org.koin.android.ext.android.inject
 
 private const val JOKES_PER_PAGE = 5
